@@ -28,7 +28,7 @@ namespace ConsoleApp1
             string content = "Hello there <br> this is mail test....";
             Emailmanager.send("reciver@test.com, recevier2@test.com", "Hi test......", content);
 
-            //Emailmanager.send()
+            // 클래스 생성자를 보고 다양하게 생성자 호출 가능 -> Emailmanager.send("??","??" "....")
 
             /*
             //확장 메서드를 사용해보자... : Extension 폴더
